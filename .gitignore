@@ -1,14 +1,14 @@
-# --- Dependencias ---
+# --- Dependencies ---
 node_modules/
 .pnp
 .pnp.js
 
-# --- Compilación (TypeScript) ---
+# --- Compilation (TypeScript) ---
 dist/
 build/
 *.tsbuildinfo
 
-# --- Variables de Entorno (SEGURIDAD) ---
+# --- Enviroments (Security) ---
 .env
 .env.local
 .env.development.local
@@ -22,6 +22,6 @@ yarn-error.log*
 logs
 *.log
 
-# --- Otros ---
+# --- Others ---
 .DS_Store
 .vscode/
